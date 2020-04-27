@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package Client;
+
+message ClientIdentification
+{
+    string Version = 1;
+    string OperatingSystem = 2;
+    string AccountType = 3;
+    string Country = 4;
+    string CountryCode = 5;
+    string Region = 6;
+    string City = 7;
+    int32 ImageIndex = 8;
+    string Id = 9;
+    string Username = 10;
+    string PcName = 11;
+    string Tag = 12;
+    string EncryptionKey = 13;
+    bytes Signature = 14;
+}
