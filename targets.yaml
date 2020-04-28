@@ -1,0 +1,5 @@
+targets:
+  test_Quasar:
+    ip: 192.168.48.129
+    port: 27015
+    plugin: plugins.quasar.Quasar
