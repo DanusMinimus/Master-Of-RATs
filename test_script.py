@@ -32,17 +32,25 @@ def len_to_byte(value):
 def build_message(mes):
     mes.Version = "1.3.0.0"
     mes.Username = "Potato"
+    
+    #Replace this one with your own clients tag
     mes.Tag = "Puppet"
     mes.Region = "Tomato"
     mes.PcName = "Jeff is a serial killer"
     mes.OperatingSystem = "Windows 7 Home"
     mes.ImageIndex = 103
+    
+    #Replace this one with your own clients ID
     mes.Id = "A8AE9A15885A8B8CE8CAC3015772BB961C182EE7491EAEE4C7478E25DB10B9BE"
+    
+    #Replace this one with your own Encryption Key
     mes.EncryptionKey = "NprYl9CF1DrvD0aSBuNCPYpHqNw3nh03"
     mes.CountryCode = "pwned"
     mes.Country = "0x00sec"
     mes.City = "Rome"
     mes.AccountType = "User"
+    
+    #Replace this one with your own clients signature value
     mes.Signature = b'\x44\x5B\x23\xAA\x2C\x0D\xEA\x17\x2B\x1D\x38\x23\x7F\x33\xCB\xFE' + \
     b'\x2D\xAB\x6B\xE2\x26\x69\x40\x8B\x7F\xED\x6E\x45\xA5\x3B\xF7\x58' + \
     b'\x1D\x1A\x07\xB3\xA0\x99\xCD\x67\x2A\xBC\xE5\x41\xB3\x8D\xB1\xE1' + \
